@@ -1,3 +1,7 @@
-.home {
+.home__wrapper {
   display: flex;
   flex-direction: column; }
+
+.home__content {
+  display: flex;
+  justify-content: center; }

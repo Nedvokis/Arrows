@@ -1,0 +1,36 @@
+.list-groups {
+  display: flex;
+  flex-direction: column; }
+  .list-groups__item {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    height: 175px; }
+
+.group__img {
+  display: flex;
+  justify-content: center;
+  width: 500px; }
+
+.group__info {
+  display: flex;
+  flex-direction: column; }
+
+.group__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0; }
+
+.group__date {
+  display: flex;
+  margin: 5px 0; }
+
+.group__description {
+  display: flex;
+  margin: 5px 0; }
+
+.group__btn-more {
+  display: flex;
+  margin: 5px 0;
+  justify-content: end; }

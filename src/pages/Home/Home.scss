@@ -1,4 +1,12 @@
 .home{
-  display: flex;
-  flex-direction: column;
+
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__content{
+    display: flex;
+    justify-content: center;
+  }
 }
