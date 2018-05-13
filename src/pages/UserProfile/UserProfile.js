@@ -11,8 +11,8 @@ class UserProfile extends Component {
         <Header />
         <div className="user-profile__content">
           <div className="user-profile__flex-dir">
-            <ListGroups />
             <UserInfo />
+            <ListGroups />
           </div>
         </div>
       </div>
