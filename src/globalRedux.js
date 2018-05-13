@@ -1,10 +1,8 @@
 import { createStore, applyMiddleware, compose, combineReducers } from 'redux';
 import createSagaMiddleware from 'redux-saga';
-import { resettableReducer } from 'reduxsauce';
 import saga from './globalSaga';
 
 export default () => {
-  const resettable = resettableReducer(ApplicationTypes.RESET_APPLICATION);
 
   const reducers = combineReducers({
   	
@@ -17,7 +15,6 @@ export default () => {
 
   const middleware = [
     sagaMiddleware,
-    websocketChatMiddleware,
   ];
 
   const store = createStore(reducers, composeEnhancers(applyMiddleware(...middleware)));

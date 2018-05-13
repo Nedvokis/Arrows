@@ -19,7 +19,9 @@ class Header extends Component {
             Найти
           </div>
           <div className="header__nav-bar_btn">
-            Вход
+            <Link to="/account">
+              Вход
+            </Link>
           </div>
         </div>
 			</div>

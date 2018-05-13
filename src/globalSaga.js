@@ -1,5 +1,5 @@
-import { all, takeLatest } from 'redux-saga/effects';
-import Api from './services/api';
+import { all } from 'redux-saga/effects';
+//import Api from './services/api';
 
 /* ------------- Types ------------- */
 
@@ -8,11 +8,13 @@ import Api from './services/api';
 
 
 /* ------------- API ------------- */
-const api = Api.create();
+//const api = Api.create();
 
 /* ------------- Connect Types To Sagas ------------- */
 const root = function* () {
   yield all([
+
+  ])
 
 };
 

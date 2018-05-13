@@ -1,0 +1,22 @@
+.user-info {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row;
+  max-width: 800px; }
+  .user-info__photo {
+    min-width: 200px;
+    min-height: 200px;
+    background: grey;
+    margin: 0 10px; }
+  .user-info__placeholder {
+    margin: 5px 0; }
+    .user-info__placeholder_name {
+      font-weight: bold;
+      font-size: 18px;
+      margin: 5px 0; }
+    .user-info__placeholder_birthdate {
+      font-size: 12px;
+      margin: 5px 0; }
+    .user-info__placeholder_email {
+      font-size: 12px;
+      margin: 5px 0; }

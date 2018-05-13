@@ -6,10 +6,12 @@ import './Home.css';
 class Home extends Component {
   render() {
     return (
-      <div className="home__wrapper">
+      <div className="home">
         <Header />
         <div className="home__content">
-          <ListGroups />
+          <div className="home__flex-dir">
+            <ListGroups />
+          </div>
         </div>
       </div>
     );
