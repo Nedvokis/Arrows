@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'react-router-dom/Link';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 class Header extends Component {
@@ -11,6 +11,19 @@ class Header extends Component {
 						Arrows
 					</Link>
 				</div>
+        <div className="header__nav-bar">
+          <div className="header__nav-bar_btn">
+            О нас
+          </div>
+          <div className="header__nav-bar_btn">
+            Найти
+          </div>
+          <div className="header__nav-bar_btn">
+            <Link to="/account">
+              Вход
+            </Link>
+          </div>
+        </div>
 			</div>
 		);
 	}
