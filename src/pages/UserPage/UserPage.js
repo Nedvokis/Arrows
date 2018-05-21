@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import UserInfo from '../../components/UserInfo/UserInfo';
 import Header from '../../containers/Header/Header';
 import ListGroups from '../../containers/ListGroups/ListGroups';
-import './UserProfile.css';
+import './UserPage.css';
 
-class UserProfile extends Component {
+class UserPage extends Component {
   render() {
     return (
       <div className="user-profile">
@@ -20,4 +20,4 @@ class UserProfile extends Component {
   }
 }
 
-export default UserProfile;
+export default UserPage;
