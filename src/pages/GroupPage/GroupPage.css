@@ -1,0 +1,8 @@
+.group-profile__content {
+  display: flex;
+  justify-content: center; }
+
+.group-profile__flex-dir {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px; }

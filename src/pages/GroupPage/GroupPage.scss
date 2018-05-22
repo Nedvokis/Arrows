@@ -1,0 +1,16 @@
+.group-profile{
+
+    &__content{
+        display: flex;
+        justify-content: center;
+ 
+    }
+
+    &__flex-dir{
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        
+    }
+
+}
