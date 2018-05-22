@@ -2,9 +2,9 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import createStore from './globalRedux';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
-import Home from './pages/Home/Home';
-import GroupPage from './pages/GroupPage/GroupPage';
-import UserPage from './pages/UserPage/UserPage';
+import Home from 'pages/Home/Home';
+import GroupPage from 'pages/GroupPage/GroupPage';
+import UserPage from 'pages/UserPage/UserPage';
 import './App.css';
 
 const store = createStore();

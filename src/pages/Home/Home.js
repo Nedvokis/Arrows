@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from '../../containers/Header/Header';
-import ListGroups from '../../containers/ListGroups/ListGroups';
+import Header from 'containers/Header/Header';
+import ListGroups from 'containers/ListGroups/ListGroups';
 import './Home.css';
 
 class Home extends Component {

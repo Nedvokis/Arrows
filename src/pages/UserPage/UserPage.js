@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import UserInfo from '../../components/UserInfo/UserInfo';
-import Header from '../../containers/Header/Header';
-import ListGroups from '../../containers/ListGroups/ListGroups';
+import UserInfo from 'components/UserInfo/UserInfo';
+import Header from 'containers/Header/Header';
+import ListGroups from 'containers/ListGroups/ListGroups';
 import './UserPage.css';
 
 class UserPage extends Component {

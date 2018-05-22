@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../../containers/Header/Header';
+import Header from 'containers/Header/Header';
 import './GroupPage.css';
 
 class GroupPage extends Component {
