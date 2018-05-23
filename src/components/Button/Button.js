@@ -9,15 +9,20 @@ class Button extends Component{
             link,
             text,
             isWork,
+            classNames,
         } = this.props;
 
-        console.log(link);
+        if(link){
+            return(
+                <button className={classNames} color="primary" disable={ disable || isWork }>
+                    <Link to={link}> {text} </Link>
+                </button>
+            );
+        }
 
         return(
-            <button color="primary" disable={ disable || isWork }>
-                <Link to={link}>
-                    {text}
-                </Link>
+            <button className={classNames} color="primary" disable={ disable || isWork }>
+                {text}
             </button>
         );
     }

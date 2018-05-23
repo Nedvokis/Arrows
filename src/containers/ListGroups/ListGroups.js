@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ListGroupItem from 'components/ListGroupItem/ListGroupItem'
-import './ListGroups.css';
+import './ListGroups.scss';
 
 class ListGroups extends Component {
   render() {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from 'containers/Header/Header';
 import ListGroups from 'containers/ListGroups/ListGroups';
-import './Home.css';
+import './Home.scss';
 
 class Home extends Component {
   render() {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import UserInfo from 'components/UserInfo/UserInfo';
 import Header from 'containers/Header/Header';
 import ListGroups from 'containers/ListGroups/ListGroups';
-import './UserPage.css';
+import './UserPage.scss';
 
 class UserPage extends Component {
   render() {

@@ -1,10 +1,8 @@
-
-export default {
+export const PROGRESS_TYPES = {
   IDLE: 'IDLE',
-  LOAD: 'LOAD',
-  REFRESH: 'REFRESH',
-  PULL: 'PULL',
-  DONE: 'DONE',
+  WORK: 'WORK',
   SUCCESS: 'SUCCESS',
   ERROR: 'ERROR',
-};
+ };
+ 
+ export default PROGRESS_TYPES;
