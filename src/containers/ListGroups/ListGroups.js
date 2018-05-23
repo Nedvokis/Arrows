@@ -6,7 +6,9 @@ class ListGroups extends Component {
   render() {
     return(
       <div className="list-groups">
-        <ListGroupItem />
+        <div className="container">
+          <ListGroupItem />
+        </div>
       </div>
     );
   }

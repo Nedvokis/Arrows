@@ -8,9 +8,11 @@ class Home extends Component {
     return (
       <div className="home">
         <Header />
-        <div className="home__content">
-          <div className="home__flex-dir">
-            <ListGroups />
+        <div className="container">
+          <div className="home__content">
+            <div className="home__flex-dir">
+              <ListGroups />
+            </div>
           </div>
         </div>
       </div>
