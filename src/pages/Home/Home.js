@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from 'containers/Header/Header';
 import ListGroups from 'containers/ListGroups/ListGroups';
+import Map from 'containers/Map/Map';
 import './Home.scss';
 
 class Home extends Component {
@@ -11,6 +12,7 @@ class Home extends Component {
         <div className="container">
           <div className="home__content">
             <div className="home__flex-dir">
+              <Map />
               <ListGroups />
             </div>
           </div>

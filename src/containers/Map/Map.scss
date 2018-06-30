@@ -1,0 +1,26 @@
+.map {
+    position: relative;
+
+    .leaflet-container {
+        height: 100px;
+        width: 100px;
+        margin: 0;
+    }
+    
+    .leaflet-bottom.leaflet-right {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 !important;
+    }
+
+    .leaflet-bottom .leaflet-control {
+        margin-bottom: 2px;
+        margin-right: 4px;
+    }
+
+    .leaflet-control-attribution{
+        height: 17px;
+        display: flex;
+        justify-content: center;
+    }
+}
