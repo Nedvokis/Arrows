@@ -7,13 +7,11 @@ const DEFAULT_VIEWPORT = {
 	zoom: 13,
 };
 
-
-
 class Map extends Component {
 
 	state = {
-		lat: 51.505,
-		lng: -0.09,
+		lat: 45.073471,
+		lng: 38.975367,
 		zoom: 13,
 		viewport: DEFAULT_VIEWPORT,
 	}
