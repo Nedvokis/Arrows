@@ -1,6 +1,6 @@
 import { createActions, createReducer } from 'reduxsauce';
-import progressTypes from '../constants/progressTypes';
-import { LIST_OF_GROUPS } from '../constants/devMeta';
+import progressTypes from 'constants/progressTypes';
+import { LIST_OF_GROUPS } from 'constants/devMeta';
 
 
 /* -------------  Action Creators ------------- */
@@ -22,6 +22,7 @@ export const Types = {
 /* ------------- Initial State ------------- */
 export const INITIAL_STATE = {
   listGroups: [],
+  progress: progressTypes.IDLE,
 };
 
 /* ------------- Reducers ------------- */

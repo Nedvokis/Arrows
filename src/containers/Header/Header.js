@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import './Header.scss';
 
 class Header extends Component {
 	render() {
@@ -19,7 +19,7 @@ class Header extends Component {
             Найти
           </div>
           <div className="header__nav-bar_btn">
-            <Link to="/account">
+            <Link to="/signin">
               Вход
             </Link>
           </div>

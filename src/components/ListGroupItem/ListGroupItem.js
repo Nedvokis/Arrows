@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import Button from 'components/Button/Button';
 import groupImg from './HTML5_Logo.svg';
-import './ListGroupItem.css';
+import './ListGroupItem.scss';
 
 class ListGroupItem extends Component {
   render() {
@@ -26,12 +25,12 @@ class ListGroupItem extends Component {
             Duis aute irure dolor in reprehenderit in voluptate velit...
           </div>
           <div className="list-groups-item__btn-more">
-            <Button color="primary">
-              <Link to="/group">
-                Узнать больше
-              </Link>
-            </Button>
-
+            <Button
+              className="btn btn-primary" 
+              link="/group"
+              text="Check it."
+              disabled={false}
+            />
           </div>
         </div>
       </div>
