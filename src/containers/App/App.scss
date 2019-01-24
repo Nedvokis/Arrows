@@ -6,6 +6,10 @@ html, body {
  font-size: $base-font-size;
 }
 
+input:focus, button:focus{
+  outline: none;
+}
+
 body {
  display: flex;
  background: $white;

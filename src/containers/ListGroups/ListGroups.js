@@ -9,7 +9,7 @@ class ListGroups extends Component {
       <div className="list-groups">
         <div className="container">
           {LIST_OF_GROUPS.map(group => (
-            <ListGroupItem title={group.title} />
+            <ListGroupItem key={group.id} title={group.title} />
           ))}
         </div>
       </div>
