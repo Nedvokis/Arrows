@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class Button extends Component{
-    render(){
+import './Button.scss';
+
+class Button extends Component {
+    render() {
 
         const {
             disable,
@@ -12,16 +14,16 @@ class Button extends Component{
             className,
         } = this.props;
 
-        if(link){
-            return(
-                <button className={className} color="primary" disable={ disable || isWork }>
+        if (link) {
+            return (
+                <button className={className} color="primary" disable={disable || isWork}>
                     <Link to={link}> {text} </Link>
                 </button>
             );
         }
 
-        return(
-            <button className={className} color="primary" disable={ disable || isWork }>
+        return (
+            <button className={className} color="primary" disable={disable || isWork}>
                 {text}
             </button>
         );
