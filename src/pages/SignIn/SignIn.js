@@ -26,7 +26,7 @@ const mapActionsToProps = {
   onSendSigninForm: SigninActions.sendSigninForm,
 }
 
-class SignIn extends Component{
+class SignIn extends Component {
 
   handleOnChangeName = (event) => {
     this.props.onChangeName(event.target.value);
@@ -36,45 +36,45 @@ class SignIn extends Component{
     this.props.onChangePassword(event.target.value);
   }
 
-  render(){
-      const {
-        name,
-        password,
-        progress,
-      } = this.props;
+  render() {
+    const {
+      name,
+      password,
+      progress,
+    } = this.props;
 
-      return(
-        <div className="sign-in">
-            <Header />
-            <div className="container sign-in__container">
-              <div className="sign-in__form">
-                <Input
-                  inputClass="sign-in__input"
-                  label="Ваш логин:" value={name}
-                  onChange={this.handleOnChangeName}
-                />
-                <Input 
-                  inputClass="sign-in__input" 
-                  label="Ваш пароль:" 
-                  value={password} 
-                  secure={true}
-                  onChange={this.handleOnChangePassword}                  
-                />
-                <Button className="btn btn-primary sign-in__confirm" text="Войти" />
-                <div className="sign-in__or">
-                  или
+    return (
+      <div className="sign-in">
+        <Header />
+        <div className="container sign-in__container">
+          <div className="sign-in__form">
+            <Input
+              inputClass="sign-in__input"
+              label="Ваш логин:" value={name}
+              onChange={this.handleOnChangeName}
+            />
+            <Input
+              inputClass="sign-in__input"
+              label="Ваш пароль:"
+              value={password}
+              secure={true}
+              onChange={this.handleOnChangePassword}
+            />
+            <Button className="btn btn-primary sign-in__confirm" text="Войти" />
+            <div className="sign-in__or">
+              или
                 </div>
-                <div className="sign-in__registration">
-                  <Link to="/signup">
-                    Зарегестрироватся
+            <div className="sign-in__registration">
+              <Link to="/signup">
+                Зарегестрироватся
                   </Link>
-                </div>
-              </div>
-
             </div>
+          </div>
+
         </div>
-      );
+      </div>
+    );
   }
 }
 
-export default connect( mapStateToProps, mapActionsToProps )(SignIn);
+export default connect(mapStateToProps, mapActionsToProps)(SignIn);

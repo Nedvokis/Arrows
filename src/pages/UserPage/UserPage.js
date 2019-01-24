@@ -12,7 +12,6 @@ class UserPage extends Component {
         <div className="user-profile__content">
           <div className="user-profile__flex-dir">
             <UserInfo />
-            <ListGroups />
           </div>
         </div>
       </div>

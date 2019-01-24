@@ -12,7 +12,7 @@ class Home extends Component {
         <div className="container">
           <div className="home__content">
             <div className="home__flex-dir">
-              <Map />
+              {/* <Map /> */}
               <ListGroups />
             </div>
           </div>
