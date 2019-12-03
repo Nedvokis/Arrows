@@ -1,5 +1,22 @@
-Arrows
+# Arrows
 
-FAQ
-  To start dev server use "yarn start" or "yarn start-js"
-  To build project use "yarn build" or "yarn build-js"
+> Meet people
+
+## Build Setup
+
+``` bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
